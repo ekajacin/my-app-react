@@ -1,0 +1,158 @@
+a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* CSS untuk Navbar */
+  
+  .navbar{
+    background-color: #FF8E9E;
+    margin: 1%;
+    padding: 1%;
+  
+  }
+  .navbar-div{
+    overflow: auto;
+    margin-left: 1%;
+    /* border: 2px black solid; */
+    padding: 1%;
+  }
+  
+  .navbar-div-div{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-family: "papyrus", fantasy;
+    font: bold;
+    float: left;
+    /* border: 1px solid black; */
+    width: max-content;
+    /* padding: 8px; */
+    margin-right: 3%;
+    background-color: none;
+  }
+  .navbar-div-div:hover {
+    border: #F7F6F2 double 2px;
+    padding: 8px;
+    border-radius: 2em;
+    transition: .3s ease-in-out;
+  }
+  .navbar1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+  }
+  
+  .navbar1 li {
+    display: inline-block;
+  }
+  
+  .navbar1 li a {
+    display: block;
+    /* padding: 10px; */
+    text-decoration: none;
+  }
+  
+  .dropdown-menu {
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    background-color: #F9B5D0;
+    border: 1px solid #F7F6F2;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+    padding: 5%;
+  }
+  .dropdown-menu-list:hover {
+    background-color: #FF597B;
+  transition: .5s ease-in-out;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* CSS untuk content */
+  
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .block{
+    /* float: left; */
+    background-color: #F9FBE7;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 100%;
+    
+  }
+  .content{
+    padding-bottom: 20%;
+  }
+  
+  .content-inner{
+        margin-top: 25%;
+        display: inline-block;
+        vertical-align: middle;
+  }
+  .content-inner p{
+        border: 1px solid black;
+        width: 150px;
+        height: 50%;
+        padding: 8px;
+        transition: transform 0.3s ease;
+        text-align: center;
+  
+  }
+  .content-inner:hover p{
+        transform: scale(1.5);
+        background-color: #FF8E9E;
+        color: #F7F6F2;
+        border: #F7F6F2 1px solid;
+  }
+  .content  .content-inner{
+  margin-left: 12%;
+  }
+  /*css untuk input*/
+  
+  .input{
+    /* border: 2px solid black; */
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #F9B5D0;
+  }
+  
+  .input-file{
+    padding-top: 30%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40%;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .input-button button{
+    padding: 8px 16px;
+    background-color: #FF597B;
+    border: 0;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+  }
+  .input-button:hover button{
+    transform: scale(1.2);
+  }
+  .judul h1{
+    margin: 0px;
+    color: #FF8E9E;
+  }
