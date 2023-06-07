@@ -8,13 +8,13 @@ function App() {
   return (
      <>
      <BrowserRouter>
-     <Dashboard>
+     {/* <Dashboard></Dashboard> */}
       <Routes>
         <Route path="/" element={<Dashboard/>}></Route>
         <Route path="/resizeImage" element={<ResizeImage/>}></Route>
         <Route path="/resizeAudio" element={<ResizeAudio/>}></Route>
       </Routes>
-      </Dashboard>
+      
       </BrowserRouter>
      </>
 
